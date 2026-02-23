@@ -20,8 +20,8 @@ class homeController extends Controller
     
     {
         return view('controller-blade',[
-            'nom'=>'zakaria',
-            'prenom'=>'benali',
+            'nom'=>'yassine',
+            'prenom'=>'benhadi',
             'langues'=>['php','laravel','javascript'],
             'n1'=>10,
             'n2'=>20

@@ -1,18 +1,14 @@
 @extends('layout.master')
 
 @section('main')
-    <h1>Page Home</h1>
+    <div class="text-center">
+        <h1 class="display-4 mb-4"></h1>
+        
 
-    <x-alert type="danger">
-        ta7it lmomtaz
-    </x-alert>
-
-    <x-usertable nom="zakaria" :users="$users" />
 
 @endsection
 @section('title')
 Home
-
 @endsection
 
 
